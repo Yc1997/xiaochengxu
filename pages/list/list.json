@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "pages":"../../components/pages/pages"
+  },
+  "navigationBarBackgroundColor":"#eeeeee",
+  "navigationBarTitleText":"分类"
+}

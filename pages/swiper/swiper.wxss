@@ -1,0 +1,4 @@
+/* pages/swiper/swiper.wxss */
+swiper{
+  height: calc(100vw * 350 / 1173);
+}

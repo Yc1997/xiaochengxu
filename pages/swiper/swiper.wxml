@@ -1,0 +1,9 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper autoplay interval='2000' circular indicator-dots indicator-color='red' indicator-active-color='blue'>
+<swiper-item><image mode="widthFix" src="//gw.alicdn.com/imgextra/i3/186/O1CN01cwi9O01DFEJieYbER_!!186-0-lubanu.jpg"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="//img.alicdn.com/imgextra/i3/50/O1CN01Exfhkf1CEwRvEq5Z1_!!50-0-luban.jpg"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="//gw.alicdn.com/imgextra/i3/50/O1CN01o3SrQE1CEwS2pngLM_!!50-0-lubanu.jpg"></image></swiper-item>
+</swiper> 
+<text>轮播图</text>
+<view>{{title}}</view>
+<button type="primary">{{title}}</button>

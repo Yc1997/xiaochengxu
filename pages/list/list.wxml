@@ -1,0 +1,4 @@
+<!--pages/list/list.wxml-->
+<text>pages/list/list.wxml</text>
+<view>时间{{time}}</view> 
+<pages></pages>

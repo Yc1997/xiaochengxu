@@ -1,0 +1,4 @@
+<!--pages/navigator/navigator.wxml-->
+<text>pages/navigator/navigator.wxml</text>
+<navigator url="/pages/swiper/swiper?title=swiper">swiper</navigator>
+<navigator url="/pages/swiper/swiper?title=swiperRedirect" open-type="redirect">swiper</navigator>
