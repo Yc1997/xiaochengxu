@@ -1,4 +1,0 @@
-<!-- pages/lists/lists.wxml -->
-<text>我是Lists页面</text>
-<view>{{count}}</view>
-<button>anniu</button>

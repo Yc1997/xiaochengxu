@@ -1,0 +1,5 @@
+<!--pages/checkbox/checkbox.wxml-->
+<checkbox-group bindchange='bindchange' >
+  <checkbox  value="{{item.value}}" wx:for="{{checkList}}" wx:key='id'>{{item.name}}</checkbox>
+</checkbox-group>
+<view>你选中的是：{{checkLists}}</view>

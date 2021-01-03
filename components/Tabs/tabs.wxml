@@ -1,0 +1,10 @@
+
+<view class="components">
+<view wx:for="{{list}}" wx:key="id" 
+  class="item {{item.active?'active':''}}"
+  data-index='{{index}}'
+  bindtap="handler"
+  >{{item.name}}</view>
+  <!-- 微信小程序的动态绑定数据跟vue不一样，小程序里动态绑定数据直接使用双大括号就行 -->
+  <!-- 小程序中的自定义属性:data-any(这个名字随便起)=想要绑定的数据 -->
+</view>

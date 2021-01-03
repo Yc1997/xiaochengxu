@@ -1,9 +1,16 @@
 {
   "pages": [
+    "pages/smzhouqihanshu/smzhouqihanshu",
+    "pages/wx-components/wx-components",
+    "pages/wx-for/wx-for",
+    "pages/checkbox/checkbox",
+    "pages/radio/radio",
+    "pages/icons/icons",
+    "pages/button/button",
+    "pages/rich-text/rich-text",
     "pages/navigator/navigator",
     "pages/swiper/swiper",
     "pages/index/index",
-    "pages/lists/lists", 
     "pages/list/list",
     "pages/shopcart/shopcart",
     "pages/my/my",
@@ -15,7 +22,8 @@
     "navigationBarBackgroundColor": "#666",
     "navigationBarTitleText": "小程序",
     "navigationBarTextStyle": "black",
-    "backgroundColorTop":"#ffffff"
+    "backgroundColorTop":"#ffffff",
+    "pageOrientation":"auto"
   },
   "tabBar": {
     "list": [

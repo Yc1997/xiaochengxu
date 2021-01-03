@@ -1,11 +1,22 @@
-// pages/lists/lists.js
+// pages/checkbox/checkbox.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    count: 0
+    checkList:[
+      {id:0,name:'apple',value:'水果'},
+      {id:1,name:'banana',value:'香蕉'},
+      {id:2,name:'putao',value:'葡萄'},
+    ],
+    checkLists:[]
+  },
+  bindchange(e){
+    const checkLists = e.detail.value
+    this.setData({
+      checkLists
+    })
   },
   /**
    * 生命周期函数--监听页面加载
